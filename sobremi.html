@@ -56,6 +56,7 @@
     <h2>Un poco mas sobre mi</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus tellus quis turpis feugiat ultricies. Ut id ex ligula. Proin semper enim et sem feugiat, sit amet tempus eros ultrices. Ut finibus ipsum ligula, aliquam iaculis tortor aliquam id. In laoreet accumsan molestie. Donec iaculis, massa id lobortis tincidunt, nibh mi tristique enim, ac gravida sapien sapien sed mauris. Vestibulum cursus tristique enim, quis rutrum arcu cursus vel. Vivamus nisi dui, scelerisque id diam sed, faucibus ultricies libero. Ut non ultrices urna.</p> 
 	
+    <!-- P1E6 -->
     <!-- Listas -->
     <h2>Listas que hablan sobre mi</h2>
     
@@ -63,6 +64,7 @@
     <h3>Lista de Aficiones</h3>
     <ul>
         <li>Tocar la Guitarra
+            <!-- Lista anidada -->
             <ul>
                 <li>Guitarra Eléctrica</li>
                 <li>Guitarra Clásica</li>
@@ -70,11 +72,12 @@
         </li>
         <li>Natción Sincronizada</li>
         <li>Arte y dibujo
-            <ol>
+            <!-- Lista anidada -->
+            <ul>
                 <li>Dibujo con carboncillo</li>
                 <li>Retrato con lapiz de grafito</li>
                 <li>Marinas con acuarela</li>
-            </ol>
+            </ul>
         </li>
         <li>Viajar</li>
         <li>Andar en Bicicleta</li>
@@ -114,24 +117,26 @@
         <dd>Los procesos y los procedimientos me encantan, organizar y estructurar los proyectos. Y lo mejor de todo, ¡No hay que programar!</dd>
     </dl>
 
+    <!-- P1E7 -->
     <!-- Temperaturas anuales -->
     <h2> Una Tabla de Temperaturas</h2>
     <table>
+        <caption> Tabla de Temperaturas Accesible</caption>
         <thead>
-
             <!-- Encabezados por año -->
-            <th></th>
-            <th>2013</th>
-            <th>2014</th>
-            <th>2015</th>
-            <th>2016</th>
-            <th>2017</th>
-            <th>2018</th>
-            <th>2019</th>
-            <th>2020</th>
-            <th>2021</th>
-            <th>2022</th>
-            <th>2023</th>
+            <tr>
+                <th>Ciudad</th>
+                <th>2014</th>
+                <th>2015</th>
+                <th>2016</th>
+                <th>2017</th>
+                <th>2018</th>
+                <th>2019</th>
+                <th>2020</th>
+                <th>2021</th>
+                <th>2022</th>
+                <th>2023</th>
+            </tr>
         </thead>
 
         <tbody>
@@ -182,9 +187,36 @@
         </tbody>
     </table>
 
+    <!-- P1E8 -->
+    <h2>Ejemplo de enlaces en HTML5</h2>
+    <p>
+        A continuación se presentan dos ejemplos de como añadir enlaces en HTML5. En primer lugar tenemos una página en Wikipedia sobre el Análisis p-ádico.
+    </p>
+    <a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_p-%C3%A1dico&oldid=143549262">
+        Wikipedia - Artículo sobre el Análisis p-ádico
+    </a>
+    <p>
+        El segundo enlace se trata de un artículo en Wikipedia sobre un compuesto extraido del hongo  "Amanita muscaria" conocido como Muscarina.
+    </p>
+    <a href="https://es.wikipedia.org/w/index.php?title=Muscarina&oldid=150593320">
+        Wikipedia - Artículo sobre la Muscarina (alcaloide tóxico)
+    </a>
+
+    <!-- P1E9 -->
+    <h2>Ejemplo de Elementos multimedia en HTML5</h2>
+    <!-- Ejemplo de Video -->
+    <video controls preload="auto">
+        <source src="multimedia/video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Ejemplo de Imagen -->
+    <img src="multimedia/imagen.jpg" alt="Imagen de ejemplo para la practica">
 
 
-
+    <!-- Ejemplo de Audio -->
+    <audio controls>
+        <source src="multimedia/audio.mp3" type="audio/mp3">
+    </audio>
 </body>
 
 
