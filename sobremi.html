@@ -55,7 +55,20 @@
     
     <h2>Un poco mas sobre mi</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus tellus quis turpis feugiat ultricies. Ut id ex ligula. Proin semper enim et sem feugiat, sit amet tempus eros ultrices. Ut finibus ipsum ligula, aliquam iaculis tortor aliquam id. In laoreet accumsan molestie. Donec iaculis, massa id lobortis tincidunt, nibh mi tristique enim, ac gravida sapien sapien sed mauris. Vestibulum cursus tristique enim, quis rutrum arcu cursus vel. Vivamus nisi dui, scelerisque id diam sed, faucibus ultricies libero. Ut non ultrices urna.</p> 
+
+    <!-- 
+        <img src="multimedia/mifoto.png" alt="Una foto mía"> 
+    -->
+  
 	
+    <!-- Imagen adaptable -->
+    <picture>
+        <source media="(max-width: 465px)" srcset="mifoto_225_225.png">
+        <source media="(max-width: 799px)" srcset="mifoto_550_550.png">
+        <source media="(min-width: 800px)" srcset="mifoto_800_800.png">
+        <img src="multimedia/mifoto_225_225.png" alt="Una foto mía">
+    </picture>
+
     <!-- P1E6 -->
     <!-- Listas -->
     <h2>Listas que hablan sobre mi</h2>
