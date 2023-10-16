@@ -8,8 +8,10 @@
 body {
     font-family: Helvetica, Tahoma, sans-serif;
     background-color: #A0E7E5;
+    color: black;
 }
 
+/*Especificidad: 001*/
 header {
     background-color: #FBE7C6;
     padding: 0.5%;
@@ -34,7 +36,8 @@ nav {
 }
 
 /*Especificidad: 002*/
-header h1,p {
+header > h1, header > p {
+    font-family: "Arial Black",Tahoma, sans-serif;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     color:#00273F;
@@ -43,10 +46,12 @@ header h1,p {
 /*Especificidad: 002*/
 section h2 {
     color:#00273F;
+    font-family: "Arial Black",Tahoma, sans-serif;
   }
 
 /*Especificidad: 002*/
 section h3 {
+    font-family: "Arial Black",Tahoma, sans-serif;
     background-color:  #B4F8C8;
     color:  black;
 
@@ -94,21 +99,22 @@ dl dt{
 
 /************* EJER 7 *************/
 /* estilo de tabla */
+/*Especificidad: 001*/
 table {
     border-collapse: collapse;
 }
 
 /*Especificidad: 002*/
 table caption {
-visibility: hidden;
+    visibility: hidden;
 }
 
 /*Especificidad: 002*/
 table th, td, tr{
-padding: 0.35em;
+    padding: 0.35em;
 
-border-color: #000;
-border-width:  0.15em;
-border-style: solid;
+    border-color: #000;
+    border-width:  0.15em;
+    border-style: solid;
 }
 /**********************************/
