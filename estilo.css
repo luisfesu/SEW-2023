@@ -4,3 +4,111 @@
     Sofware y Estandares para la Web - 2023
 **********************************************/
 
+/*Especificidad: 001*/
+body {
+    font-family: Helvetica, Tahoma, sans-serif;
+    background-color: #A0E7E5;
+}
+
+header {
+    background-color: #FBE7C6;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+/*Especificidad: 001*/
+section {
+    background-color: white;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+/*Especificidad: 001*/
+nav {
+    background-color: #FFAEBC;
+    padding: 0.5%;
+    margin: 0.5%;
+
+    border-style: solid;
+    border-color: #00273F;
+}
+
+/*Especificidad: 002*/
+header h1,p {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    color:#00273F;
+}
+
+/*Especificidad: 002*/
+section h2 {
+    color:#00273F;
+  }
+
+/*Especificidad: 002*/
+section h3 {
+    background-color:  #B4F8C8;
+    color:  black;
+
+    padding: .2%;
+}  
+
+
+/************* EJER 4 *************/
+
+/**********************************/
+
+
+/************* EJER 5 *************/
+/*Especificidad: 002*/
+ul > li {
+    list-style: none;
+}
+
+/*Especificidad: 003*/
+ul > li::before {
+    content: "► ";
+    color: blue;
+}
+
+/*Especificidad: 004*/
+li > ul li::before {
+    content: "► ";
+    color: red;
+}
+
+/*Especificidad: 013*/
+section > ul > li:nth-child(3n) {
+    color: red;
+    font-weight: bold;
+}
+/**********************************/
+
+
+/************* EJER 6 *************/
+/*Especificidad: 002*/
+dl dt{
+    font-weight: bold;
+}
+/**********************************/
+
+/************* EJER 7 *************/
+/* estilo de tabla */
+table {
+    border-collapse: collapse;
+}
+
+/*Especificidad: 002*/
+table caption {
+visibility: hidden;
+}
+
+/*Especificidad: 002*/
+table th, td, tr{
+padding: 0.35em;
+
+border-color: #000;
+border-width:  0.15em;
+border-style: solid;
+}
+/**********************************/
