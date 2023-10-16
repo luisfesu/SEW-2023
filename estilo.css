@@ -13,6 +13,7 @@ body {
 
 /*Especificidad: 001*/
 header {
+    /*hereda el color de body => color: black*/
     background-color: #FBE7C6;
     padding: 0.5%;
     margin: 0.5%;
@@ -20,6 +21,7 @@ header {
 
 /*Especificidad: 001*/
 section {
+    /*hereda el color de body => color: black*/
     background-color: white;
     padding: 0.5%;
     margin: 0.5%;
@@ -27,6 +29,7 @@ section {
 
 /*Especificidad: 001*/
 nav {
+    /*hereda el color de body => color: black*/
     background-color: #FFAEBC;
     padding: 0.5%;
     margin: 0.5%;
@@ -40,11 +43,13 @@ header > h1, header > p {
     font-family: "Arial Black",Tahoma, sans-serif;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+    /*hereda el background color de header => background-color: #FBE7C6 */
     color:#00273F;
 }
 
 /*Especificidad: 002*/
 section h2 {
+    /*hereda el background color de fondo de section =>  background-color: white */
     color:#00273F;
     font-family: "Arial Black",Tahoma, sans-serif;
   }
@@ -73,17 +78,20 @@ ul > li {
 /*Especificidad: 003*/
 ul > li::before {
     content: "► ";
+    /*hereda el background color de fondo de section =>  background-color: white */
     color: blue;
 }
 
 /*Especificidad: 004*/
 li > ul li::before {
     content: "► ";
+    /*hereda el background color de fondo de section =>  background-color: white */
     color: red;
 }
 
 /*Especificidad: 013*/
 section > ul > li:nth-child(3) {
+    /*hereda el background color de fondo de section =>  background-color: white */
     color: red;
     font-weight: bold;
 }
@@ -110,7 +118,7 @@ table caption {
 }
 
 /*Especificidad: 002*/
-table th, td, tr{
+table th,table td,table tr{
     padding: 0.35em;
 
     border-color: #000;

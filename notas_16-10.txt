@@ -1,0 +1,13 @@
+tipografia:
+    necesitas tener la fuente instalada en el cliente
+
+colores:
+    Para evitar el warning de front - background Habrá que poner un comentario en el código por cada uno de los warnings
+
+Tabla:
+    2 filas y 11 columnas ====> convertir en 11 filas y 2 colls 
+    Pero no se ha explicado como hacerlo la verdad
+    ¡¡ OJO CON ESTO !!
+
+
+Solo se permiten las re-definiciones cuand hay @media-queries

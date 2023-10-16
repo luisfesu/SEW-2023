@@ -22,6 +22,7 @@
 
 	<!-- Estilos -->
 	<link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
 
     <!-- Favicon -->
     <link rel="icon" href="multimedia/images/favicon.ico">
@@ -34,215 +35,209 @@
         <!-- Datos con el contenidos que aparece en el navegador -->
         <h1> Sobre Mi </h1>
         <p> Una página del sitio Web - Escritorio Virtual 2023</p>
+
+        <!-- Navegacion -->
+        <nav>
+            <a title="inicio"   tabindex="1" accesskey="I" href="index.html">Inicio </a>
+            <a title="Sobremi"  tabindex="2" accesskey="s" href="sobremi.html">Sobre mi </a>
+            <a title="noticias" tabindex="3" accesskey="n" href="noticias.html">Noticias </a>
+            <a title="agenda"   tabindex="4" accesskey="a" href="agenda.html">Agenda </a>
+            <a title="meteorologia" tabindex="5" accesskey="m" href="meteorologia.html">Meteorología </a>
+            <a title="viajes"   tabindex="6" accesskey="v" href="viajes.html">Viajes </a>
+            <a title="juegos"   tabindex="7" accesskey="j" href="juegos.html">Juegos </a>
+        </nav>
     </header>
 
-    <!-- Navegacion -->
-    <nav>
-        <a title="inicio"   tabindex="1" accesskey="I" href="index.html">Inicio </a>
-        <a title="Sobremi"  tabindex="2" accesskey="s" href="sobremi.html">Sobre mi </a>
-        <a title="noticias" tabindex="3" accesskey="n" href="noticias.html">Noticias </a>
-        <a title="agenda"   tabindex="4" accesskey="a" href="agenda.html">Agenda </a>
-        <a title="meteorologia" tabindex="5" accesskey="m" href="meteorologia.html">Meteorología </a>
-        <a title="viajes"   tabindex="6" accesskey="v" href="viajes.html">Viajes </a>
-        <a title="juegos"   tabindex="7" accesskey="j" href="juegos.html">Juegos </a>
-    </nav>
-
     <!-- Contenido Principal del Documento -->
-    <main>
+    <section>
+        <h2>Nombre</h2>
+        <p>Mi nombre es Luis Antonio</p> 
         
-        <section>
-            <h2>Nombre</h2>
-            <p>Mi nombre es Luis Antonio</p> 
-            
-            <h2>Apellido</h2>
-            <p>Mis apellidos son Fernández Suárez</p> 
-            
-            <h2>código UO</h2>
-            <p>Mi código UO es UO271430</p> 
-            
-            <h2>Correo Electrónico</h2>
-            <p>Mi dirección de correo es uo271430@uniovi.es</p> 
-            
-            <h2>Un poco mas sobre mi</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus tellus quis turpis feugiat ultricies. Ut id ex ligula. Proin semper enim et sem feugiat, sit amet tempus eros ultrices. Ut finibus ipsum ligula, aliquam iaculis tortor aliquam id. In laoreet accumsan molestie. Donec iaculis, massa id lobortis tincidunt, nibh mi tristique enim, ac gravida sapien sapien sed mauris. Vestibulum cursus tristique enim, quis rutrum arcu cursus vel. Vivamus nisi dui, scelerisque id diam sed, faucibus ultricies libero. Ut non ultrices urna.</p> 
+        <h2>Apellido</h2>
+        <p>Mis apellidos son Fernández Suárez</p> 
+        
+        <h2>código UO</h2>
+        <p>Mi código UO es UO271430</p> 
+        
+        <h2>Correo Electrónico</h2>
+        <p>Mi dirección de correo es uo271430@uniovi.es</p> 
+        
+        <h2>Un poco mas sobre mi</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus tellus quis turpis feugiat ultricies. Ut id ex ligula. Proin semper enim et sem feugiat, sit amet tempus eros ultrices. Ut finibus ipsum ligula, aliquam iaculis tortor aliquam id. In laoreet accumsan molestie. Donec iaculis, massa id lobortis tincidunt, nibh mi tristique enim, ac gravida sapien sapien sed mauris. Vestibulum cursus tristique enim, quis rutrum arcu cursus vel. Vivamus nisi dui, scelerisque id diam sed, faucibus ultricies libero. Ut non ultrices urna.</p> 
+
+        
+        <!-- Imagen adaptable -->
+        <picture>
+            <source media="(max-width: 465px)" srcset="multimedia/mifoto_225_225.png">
+            <source media="(max-width: 799px)" srcset="multimedia/mifoto_550_550.png">
+            <source media="(min-width: 800px)" srcset="multimedia/mifoto_800_800.png">
+            <img src="multimedia/mifoto_225_225.png" alt="Una foto mía">
+        </picture>
+    </section>
+        
+    <section>
+        <!-- P1E6 -->
+        <!-- Listas -->
+        <h2>Listas que hablan sobre mi</h2>
+        <!-- Lista desordenada -->
+        <h3>Lista de Aficiones</h3>
+        <ul>
+            <li>Tocar la Guitarra
+                <!-- Lista anidada -->
+                <ul>
+                    <li>Guitarra Eléctrica</li>
+                    <li>Guitarra Clásica</li>
+                </ul>
+            </li>
+            <li>Natción Sincronizada</li>
+            <li>Viajar</li>
+            <li>Arte y dibujo
+                <!-- Lista anidada -->
+                <ul>
+                    <li>Dibujo con carboncillo</li>
+                    <li>Retrato con lapiz de grafito</li>
+                    <li>Marinas con acuarela</li>
+                </ul>
+            </li>
+            <li>Andar en Bicicleta</li>
+        </ul>
+
+        <p> Aqui se puede ver un video mío tocando la guitarra</p>
+        <!-- Ejemplo de Video -->
+        <video controls preload="auto">
+            <source src="multimedia/video.mp4" type="video/mp4">
+            <source src="multimedia/video_webm.webm" type="video/webm">
+        </video> 
     
-            
-            <!-- Imagen adaptable -->
-            <picture>
-                <source media="(max-width: 465px)" srcset="multimedia/mifoto_225_225.png">
-                <source media="(max-width: 799px)" srcset="multimedia/mifoto_550_550.png">
-                <source media="(min-width: 800px)" srcset="multimedia/mifoto_800_800.png">
-                <img src="multimedia/mifoto_225_225.png" alt="Una foto mía">
-            </picture>
-        </section>
-            
-        <section>
-            <!-- P1E6 -->
-            <!-- Listas -->
-            <h2>Listas que hablan sobre mi</h2>
-            <!-- Lista desordenada -->
-            <h3>Lista de Aficiones</h3>
-            <ul>
-                <li>Tocar la Guitarra
-                    <!-- Lista anidada -->
-                    <ul>
-                        <li>Guitarra Eléctrica</li>
-                        <li>Guitarra Clásica</li>
-                    </ul>
-                </li>
-                <li>Natción Sincronizada</li>
-                <li>Viajar</li>
-                <li>Arte y dibujo
-                    <!-- Lista anidada -->
-                    <ul>
-                        <li>Dibujo con carboncillo</li>
-                        <li>Retrato con lapiz de grafito</li>
-                        <li>Marinas con acuarela</li>
-                    </ul>
-                </li>
-                <li>Andar en Bicicleta</li>
-            </ul>
+        <!-- Lista ordenada -->
+        <h3> Mis grupos Favoritos</h3>
+        <ol>
+            <li>Guns'n'Roses</li>
+            <li>Mano Negra</li>
+            <li>La Oreja de Van Gogh</li>
+            <li>Los Pibes Chorros</li>
+            <li>Los Chichos</li>
+        </ol>
+        <p>Un pequeño audio sobre una canción de los Guns'n'Roses</p>
+        <!-- Ejemplo de Audio -->
+        <audio controls>
+            <source src="multimedia/audio.mp3" type="audio/mp3">
+            <source src="multimedia/audio_wav.wav" type="audio/wav">
+        </audio>
         
-            <!-- Lista ordenada -->
-            <h3> Mis grupos Favoritos</h3>
-            <ol>
-                <li>Guns'n'Roses</li>
-                <li>Mano Negra</li>
-                <li>La Oreja de Van Gogh</li>
-                <li>Los Pibes Chorros</li>
-                <li>Los Chichos</li>
-            </ol>
-            
-            <!-- Lista de Definición-->
-            <h3> Mis Asignaturas Favoritas</h3>
-            <dl>
-                <!-- 1. -->
-                <dt>Introducción a la Programación</dt>
-                <dd>Programar pequeños scripts de python era divertido, poco sabía lo que se venía detras...</dd>
         
-                <!-- 2. -->
-                <dt>Sistemas Distribuidos e Internet</dt>
-                <dd>Las practicas son dolorosas pero el contenido es muy util</dd>
-        
-                <!-- 3. -->
-                <dt>Sistemas Operativos</dt>
-                <dd>Programar en C es divertido, no se porque no lo hacemos más a menudo.</dd>
-        
-                <!-- 4. -->
-                <dt>Aspectos Sociales, Legales y Eticos de la Informática</dt>
-                <dd>El nombre de la asignatura es mas largo que el examen. Las leyes y normativas es un tema que me parece muy interesante. Sin duda una asignatura útil. </dd>
-        
-                <!-- 5. -->
-                <dt>Ingeniería de Requisitos</dt>
-                <dd>Los procesos y los procedimientos me encantan, organizar y estructurar los proyectos. Y lo mejor de todo, ¡No hay que programar!</dd>
-            </dl>
-        
-            <!-- P1E7 -->
-            <!-- Temperaturas anuales -->
-            <h2> Una Tabla de Temperaturas</h2>
-            <table>
-                <caption> Tabla de Temperaturas Accesible</caption>
-                <thead>
-                    <!-- Encabezados por año -->
-                    <tr>
-                        <th>Ciudad</th>
-                        <th>2014</th>
-                        <th>2015</th>
-                        <th>2016</th>
-                        <th>2017</th>
-                        <th>2018</th>
-                        <th>2019</th>
-                        <th>2020</th>
-                        <th>2021</th>
-                        <th>2022</th>
-                        <th>2023</th>
-                    </tr>
-                </thead>
-        
-                <tbody>
-                    <!-- Fila para Gijon -->
-                    <tr>
-                        <th>Gijón</th>
-                        <td>28.5</td>
-                        <td>29.3</td>
-                        <td>27.8</td>
-                        <td>30.2</td>
-                        <td>28.7</td>
-                        <td>31.1</td>
-                        <td>29.8</td>
-                        <td>27.4</td>
-                        <td>28.9</td>
-                        <td>30.5</td>
-                    </tr>
-                    
-                    <!-- Fila para Aviles -->
-                    <tr>
-                        <th>Aviles</th>
-                        <td>27.9</td>
-                        <td>29.1</td>
-                        <td>28.4</td>
-                        <td>30.8</td>
-                        <td>28.1</td>
-                        <td>30.3</td>
-                        <td>29.7</td>
-                        <td>27.6</td>
-                        <td>28.5</td>
-                        <td>30.0</td>
-                    </tr>
-                    
-                    <!-- Fila para Oviedo -->
-                    <tr>
-                        <th>Oviedo</th>
-                        <td>28.2</td>
-                        <td>29.0</td>
-                        <td>27.6</td>
-                        <td>30.0</td>
-                        <td>28.8</td>
-                        <td>30.5</td>
-                        <td>29.3</td>
-                        <td>27.9</td>
-                        <td>28.6</td>
-                        <td>30.2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <!-- Lista de Definición-->
+        <h3> Mis Asignaturas Favoritas</h3>
+        <dl>
+            <!-- 1. -->
+            <dt>Introducción a la Programación</dt>
+            <dd>Programar pequeños scripts de python era divertido, poco sabía lo que se venía detras...</dd>
     
-        <section>
-            <!-- P1E8 -->
-            <h2>Ejemplo de enlaces en HTML5</h2>
-            <p>
-                A continuación se presentan dos ejemplos de como añadir enlaces en HTML5. En primer lugar tenemos una página en Wikipedia sobre el Análisis p-ádico.
-            </p>
-            <a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_p-%C3%A1dico&oldid=143549262">
-                Wikipedia - Artículo sobre el Análisis p-ádico
-            </a>
-            <p>
-                El segundo enlace se trata de un artículo en Wikipedia sobre un compuesto extraido del hongo  "Amanita muscaria" conocido como Muscarina.
-            </p>
-            <a href="https://es.wikipedia.org/w/index.php?title=Muscarina&oldid=150593320">
-                Wikipedia - Artículo sobre la Muscarina (alcaloide tóxico)
-            </a>
-        
-            <!-- P1E9 -->
-            <h2>Ejemplo de Elementos multimedia en HTML5</h2>
-            <!-- Ejemplo de Video -->
-            <video controls preload="auto">
-                <source src="multimedia/video.mp4" type="video/mp4">
-                <source src="multimedia/video_webm.webm" type="video/webm">
-            </video>
-        
-            <!-- Ejemplo de Imagen -->
-            <img src="multimedia/imagen.jpg" alt="Imagen de ejemplo para la practica">
-        
-        
-            <!-- Ejemplo de Audio -->
-            <audio controls>
-                <source src="multimedia/audio.mp3" type="audio/mp3">
-                <source src="multimedia/audio_wav.wav" type="audio/wav">
-            </audio>
-        </section>
-    </main>
+            <!-- 2. -->
+            <dt>Sistemas Distribuidos e Internet</dt>
+            <dd>Las practicas son dolorosas pero el contenido es muy util</dd>
+    
+            <!-- 3. -->
+            <dt>Sistemas Operativos</dt>
+            <dd>Programar en C es divertido, no se porque no lo hacemos más a menudo.</dd>
+    
+            <!-- 4. -->
+            <dt>Aspectos Sociales, Legales y Eticos de la Informática</dt>
+            <dd>El nombre de la asignatura es mas largo que el examen. Las leyes y normativas es un tema que me parece muy interesante. Sin duda una asignatura útil. </dd>
+    
+            <!-- 5. -->
+            <dt>Ingeniería de Requisitos</dt>
+            <dd>Los procesos y los procedimientos me encantan, organizar y estructurar los proyectos. Y lo mejor de todo, ¡No hay que programar!</dd>
+        </dl>
+    
+        <!-- P1E7 -->
+        <!-- Temperaturas anuales -->
+        <h2> Una Tabla de Temperaturas</h2>
+        <table>
+            <caption> Tabla de Temperaturas Accesible</caption>
+            <thead>
+                <!-- Encabezados por año -->
+                <tr>
+                    <th>Ciudad</th>
+                    <th>2014</th>
+                    <th>2015</th>
+                    <th>2016</th>
+                    <th>2017</th>
+                    <th>2018</th>
+                    <th>2019</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                    <th>2022</th>
+                    <th>2023</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <!-- Fila para Gijon -->
+                <tr>
+                    <th>Gijón</th>
+                    <td>28.5</td>
+                    <td>29.3</td>
+                    <td>27.8</td>
+                    <td>30.2</td>
+                    <td>28.7</td>
+                    <td>31.1</td>
+                    <td>29.8</td>
+                    <td>27.4</td>
+                    <td>28.9</td>
+                    <td>30.5</td>
+                </tr>
+                
+                <!-- Fila para Aviles -->
+                <tr>
+                    <th>Aviles</th>
+                    <td>27.9</td>
+                    <td>29.1</td>
+                    <td>28.4</td>
+                    <td>30.8</td>
+                    <td>28.1</td>
+                    <td>30.3</td>
+                    <td>29.7</td>
+                    <td>27.6</td>
+                    <td>28.5</td>
+                    <td>30.0</td>
+                </tr>
+                
+                <!-- Fila para Oviedo -->
+                <tr>
+                    <th>Oviedo</th>
+                    <td>28.2</td>
+                    <td>29.0</td>
+                    <td>27.6</td>
+                    <td>30.0</td>
+                    <td>28.8</td>
+                    <td>30.5</td>
+                    <td>29.3</td>
+                    <td>27.9</td>
+                    <td>28.6</td>
+                    <td>30.2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <!-- P1E8 -->
+        <h2>Ejemplo de enlaces en HTML5</h2>
+        <p>
+            A continuación se presentan dos ejemplos de como añadir enlaces en HTML5. En primer lugar tenemos una página en Wikipedia sobre el Análisis p-ádico.
+        </p>
+        <a href="https://es.wikipedia.org/w/index.php?title=An%C3%A1lisis_p-%C3%A1dico&oldid=143549262">
+            Wikipedia - Artículo sobre el Análisis p-ádico
+        </a>
+        <p>
+            El segundo enlace se trata de un artículo en Wikipedia sobre un compuesto extraido del hongo  "Amanita muscaria" conocido como Muscarina.
+        </p>
+        <a href="https://es.wikipedia.org/w/index.php?title=Muscarina&oldid=150593320">
+            Wikipedia - Artículo sobre la Muscarina (alcaloide tóxico)
+        </a>                              
+    </section>
+
 </body>
 
 
