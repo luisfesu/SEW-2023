@@ -11,3 +11,39 @@ Tabla:
 
 
 Solo se permiten las re-definiciones cuand hay @media-queries
+
+
+
+30-10
+Hay tipo fecha y tipo duracion en xml schema
+Hay restricciones
+
+Tipo duración (xs:duration)
+    – La duración, tipo de datos se utiliza para especificar un intervalo de tiempo.
+    – El intervalo de tiempo se especifica en la siguiente forma "PnYnMnDTnHnMnS" donde:
+        • P indica el período (obligatorio)
+        • nY indica el número de años
+        • nM indica el número de meses
+        • nD indica el número de días
+        • T indica el inicio de una sección de tiempo (necesario si se va a especificar horas, minutos o segundos)
+        • nH indica el número de horas
+        • nM indica el número de minutos
+        • nS indica el número de segundos
+
+Ejemplos
+    • <xs:element name=“duracionRuta" type="xs:duration"/>
+    • <duracionRuta>PT7H</duracionRuta> indica una duración de 7 horas
+    • <duracionRuta>P1Y7M29DT12H</duracionRuta> indica una duración de 1 año, 7 meses, 29
+    días y 12 horas
+
+
+
+XPATH:
+
+    primera vez ponemos .\\
+
+    Para hacer un KML habría que hacer un patron VISITOR
+
+
+ALTIMETRIA:
+    Habrá que hacer algo parecido a la diapositiva 55 del Tema 1 de XML

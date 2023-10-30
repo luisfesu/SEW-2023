@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rutas
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="rutas.xsd"
+>
+
+    
+
+
+    <ruta nombre="Ruta en coche 1" tipo="Ruta en coche">
+        <medioTransporte> coche </medioTransporte>
+
+        <inicio>
+            <!-- yyyy-mm-dd-->
+            <fecha>2023-10-23</fecha>
+            <hora>14:00</hora>
+            <lugar> Hotel Restaurant LE NOYAU </lugar>
+            <direccion>
+                Villa Maxfrancky Ambataria Fenerive Est Ambataria fenerive est Madagascar, Fenerive est 509, Madagascar
+            </direccion>
+            <coordenadas long="-17.382735086" lat="49.4133362" alt="100"/>
+
+        </inicio>
+        
+        <duracion>PT4H</duracion>
+        <agencia>Viajes Madagascar S.L.</agencia>
+        <descripcion>
+            Una ruta en coche por la costa de Madagascar especialmente apropiada para grupos y familias con personas mayores o niños
+        </descripcion>
+
+        <personasAdecuadas>
+            Una ruta apta para todos los públicos
+        </personasAdecuadas>
+
+        <referencias>
+            <referencia>referencia 1</referencia>
+            <referencia>referencia 2</referencia>
+            <referencia>referencia 3</referencia>
+        </referencias>
+
+        <recomendacion>7</recomendacion>
+
+
+        <hitos>
+            <hito nombre="Hito 1">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+            <hito nombre="Hito 2">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+            <hito nombre="Hito 3">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+        </hitos>
+
+    </ruta>
+
+    <ruta nombre="Ruta en coche 1" tipo="Ruta en coche">
+        <medioTransporte> coche </medioTransporte>
+
+        <inicio>
+            <!-- yyyy-mm-dd-->
+            <fecha>2023-10-23</fecha>
+            <hora>14:00</hora>
+            <lugar> Hotel Restaurant LE NOYAU </lugar>
+            <direccion>
+                Villa Maxfrancky Ambataria Fenerive Est Ambataria fenerive est Madagascar, Fenerive est 509, Madagascar
+            </direccion>
+            <coordenadas long="-17.382735086" lat="49.4133362" alt="100"/>
+
+        </inicio>
+        
+        <duracion>PT4H</duracion>
+        <agencia>Viajes Madagascar S.L.</agencia>
+        <descripcion>
+            Una ruta en coche por la costa de Madagascar especialmente apropiada para grupos y familias con personas mayores o niños
+        </descripcion>
+
+        <personasAdecuadas>
+            Una ruta apta para todos los públicos
+        </personasAdecuadas>
+
+        <referencias>
+            <referencia>referencia 1</referencia>
+            <referencia>referencia 2</referencia>
+            <referencia>referencia 3</referencia>
+        </referencias>
+
+        <recomendacion>7</recomendacion>
+
+
+        <hitos>
+            <hito nombre="Hito 1">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+            <hito nombre="Hito 2">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+            <hito nombre="Hito 3">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+        </hitos>
+
+    </ruta>
+    <ruta nombre="Ruta en coche 1" tipo="Ruta en coche">
+        <medioTransporte> coche </medioTransporte>
+
+        <inicio>
+            <!-- yyyy-mm-dd-->
+            <fecha>2023-10-23</fecha>
+            <hora>14:00</hora>
+            <lugar> Hotel Restaurant LE NOYAU </lugar>
+            <direccion>
+                Villa Maxfrancky Ambataria Fenerive Est Ambataria fenerive est Madagascar, Fenerive est 509, Madagascar
+            </direccion>
+            <coordenadas long="-17.382735086" lat="49.4133362" alt="100"/>
+
+        </inicio>
+        
+        <duracion>PT4H</duracion>
+        <agencia>Viajes Madagascar S.L.</agencia>
+        <descripcion>
+            Una ruta en coche por la costa de Madagascar especialmente apropiada para grupos y familias con personas mayores o niños
+        </descripcion>
+
+        <personasAdecuadas>
+            Una ruta apta para todos los públicos
+        </personasAdecuadas>
+
+        <referencias>
+            <referencia>referencia 1</referencia>
+            <referencia>referencia 2</referencia>
+            <referencia>referencia 3</referencia>
+        </referencias>
+
+        <recomendacion>7</recomendacion>
+
+
+        <hitos>
+            <hito nombre="Hito 1">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+            <hito nombre="Hito 2">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+            <hito nombre="Hito 3">
+                <descripcion> </descripcion>
+                <coordenadas long="" lat="" alt=""/>
+                <hitoAnterior dist="0"/>
+
+                <galeriaFotos>
+                    <foto>Foto1.png</foto>
+                    <foto>Foto2.png</foto>
+                    <foto>Foto3.png</foto>
+                </galeriaFotos>
+                
+                <galeriaVideos>
+                    <video> video1.mp4</video>
+                </galeriaVideos>
+
+            </hito>
+        </hitos>
+
+    </ruta>
+
+</rutas>
