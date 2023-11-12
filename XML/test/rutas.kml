@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name> coordenadas de los amigos de la RS </name>
+<Placemark><LineString><coordinates>
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+-17.382735086,49.4133362,100 
+</coordinates></LineString></Placemark>
+</Document>
+</kml>
