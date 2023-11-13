@@ -47,3 +47,31 @@ XPATH:
 
 ALTIMETRIA:
     Habrá que hacer algo parecido a la diapositiva 55 del Tema 1 de XML
+
+
+
+JAVASCRIPT 1:
+
+    Flexbox --> Cada tarjeta 25% de la caja.
+    Cada tarjeta:
+        <article>
+        <h3> M.C. </h3>
+        <img src="___"/>
+        </article>
+
+    habrá que usar los atributos duracionRuta
+
+    cada article:
+        data-state
+            |
+            - init 
+            - flip
+            - reveled
+
+   El flip de las tarjetas se puede copiar del codigo de Jaime
+
+
+   SUDOKAZU:  
+        A ver chungo tema. La idea para comprobar el cuadrado 3x3 es:
+            1 - (1 mod 3) | Esto sirve para obtener la pos en la "subarray" de 3x3 
+            1 - (1 mod 3) | Una vez echo esto, podemos obtener las posiciones contiguas a partir de el array completo.
